@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ecard5Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard5Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard2Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard2Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard5Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard5Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard6Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard6Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard1Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard1Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard4Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard4Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBackgroundCard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBackgroundCard1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard7Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard7Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard7Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard7Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard6Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard6Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard3Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard3Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard7Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard7Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard8Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard8Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard3Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard3Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBackgroundCard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBackgroundCard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard8Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard8Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard2Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard2Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard4Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard4Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard1Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard1Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard3Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard3Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard5Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard5Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard6Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard6Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard1Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard1Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EBackgroundCard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EBackgroundCard2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard8Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard8Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard4Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard4Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecard2Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecard2Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard1Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard1Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard2Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard2Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard3Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard3Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard4Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard4Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard5Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard5Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard6Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard6Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard7Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard7Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard8Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard8Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard9Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard9Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard10Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard10Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard11Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard11Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard12Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard12Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard13Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard13Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard14Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard14Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard15Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard15Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard16Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard16Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard17Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard17Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard18Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard18Animal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard1Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard1Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard2Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard2Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard3Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard3Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard4Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard4Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard5Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard5Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard6Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard6Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard7Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard7Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard8Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard8Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard9Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard9Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard10Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard10Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard11Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard11Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard12Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard12Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard13Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard13Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard14Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard14Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard15Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard15Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard16Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard16Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard17Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard17Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard18Fruit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard18Fruit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HBackgroundCard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HBackgroundCard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard1Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard1Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard2Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard2Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard3Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard3Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard4Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard4Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard5Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard5Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard6Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard6Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard7Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard7Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard8Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard8Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard9Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard9Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard10Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard10Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard11Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard11Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard12Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard12Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard13Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard13Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard14Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard14Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard15Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard15Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard16Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard16Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard17Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard17Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hcard18Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hcard18Space.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

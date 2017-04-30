@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D776B2D-B541-4CAE-8A5C-8C17C2A7F4E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MatchingGameAssignment</RootNamespace>
+    <AssemblyName>MatchingGameAssignment</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="GameTime.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resource2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource2.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resources\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBackgroundCard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard1Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard2Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard3Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard4Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard6Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard7Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard8Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBackgroundCard1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard1Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard2Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard3Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard4Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard5Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard6Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard7Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard8Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBackgroundCard2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard1Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard2Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard3Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard4Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard5Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard6Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard7Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard8Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecard5Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ding_-_Sound_Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wrong_Buzzer_Sound_Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DingSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WrongBuzzerSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard1Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard2Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard3Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard4Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard5Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard6Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard7Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard8Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard9Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard10Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard11Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard12Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard13Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard14Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard15Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard16Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard17Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard18Animal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard1Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard2Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard3Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard4Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard5Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard6Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard7Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard8Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard9Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard10Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard11Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard12Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard13Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard14Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard15Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard16Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard17Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard18Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HBackgroundCard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard1Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard2Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard3Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard4Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard5Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard6Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard7Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard8Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard9Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard10Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard11Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard12Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard13Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard14Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard15Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard16Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard17Space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hcard18Space.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
